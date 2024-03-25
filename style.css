@@ -1,0 +1,37 @@
+.accordion-body {
+    font-size: 13px;
+}
+
+th.recCases,
+td.recCases {
+    color: green;
+}
+
+th.totalDeaths,
+td.totalDeaths {
+    color: red;
+}
+
+.table{
+    display: block !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+  }
+
+  .btn {
+    background-color: #040720;
+    color: whitesmoke;
+  }
+
+  .btn:hover {
+    background-color: gray;
+  }
+
+  .btn:active {
+    background-color: gray;
+    color: #040720;
+  }
+
+  td {
+    text-align: center;
+  }

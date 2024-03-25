@@ -1,0 +1,5 @@
+make it so that when the user click on get data, also loads date for history
+
+make container to display history data below current data
+
+optional: make the container before data shows a little prettier
