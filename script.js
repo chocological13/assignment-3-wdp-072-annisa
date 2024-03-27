@@ -104,9 +104,11 @@ async function fetchData() {
 			</div>`
         } else {
             document.getElementById('ifNA').innerHTML = `<p>Data not available for ${selectedCountry}</p>`;
+            alert("Data not available for " + selectedCountry + "!");
         }
     } catch (error) {
         console.error(error);
+        alert("Data not available!");
     }
 
 }
